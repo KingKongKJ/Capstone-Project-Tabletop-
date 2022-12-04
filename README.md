@@ -2,9 +2,22 @@
 In this repository are the various pages associated with TableTop. The pages include;
 - Login Page: This is will be the first page for our demonstration
 - Social Settings Page: This is where the user will select the restaurant type, desired reservation time, and their party size
-- Landing page based on user criteria: Here the database will return results
+- Landing page based on user criteria: Here the database will return results 
+
+This laning page will be determined of your "Social Settings" depending on your preferred destination this will populate specific resturants
+The four pages within the "landing page" are. 
+
+1. Fast food
+2. Sit Down
+3. Speciality 
+4. Bar
+
+- within each of this restaurant types there is a form for other restaurants to apply to become a part of TableTop's restaurant table reservation system
+- After selecting your night out you will be directed to the Reservation page, this is our input form for table reservation 
+
+
 - Table Reservation Page: Where the user will select a desired table
-- Confirmation Page: Done once the reservation process is complete
+- Confirmation Page: Done once the reservation process is complete. The Table confirmation is a simple and easy to read table of the users input
 - Restaurant sign-up page: Input form for resaturants to request the addition to TableTop
 
 
@@ -15,3 +28,5 @@ In this repository are the various pages associated with TableTop. The pages inc
 - This repository also includes all images used associated with the restaurants themselves
 
 The project itself has been done in Visual Studio, originally it was designed in VSCode then migrated once the database needed to be embedded
+
+Within this File should be final code push to GitHub. 

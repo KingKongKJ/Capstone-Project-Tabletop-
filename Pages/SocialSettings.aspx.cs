@@ -13,5 +13,29 @@ namespace TestCapstone.Pages
         {
 
         }
+        
+        protected void DropDownList1_SelectedIndexChanged(object senderm EventArgs e)
+        {
+            if (DropDownList1.SelectedValue == "Fast Food") 
+            {
+                Response.Redirect("FastfoodSelection.html");
+            }
+            
+             if (DropDownList1.SelectedValue == "Sit Down") 
+            {
+                Response.Redirect("SitDownSelection.html");
+            }
+            
+             if (DropDownList1.SelectedValue == "Bar") 
+            {
+                Response.Redirect("BSelection.html");
+            }
+            
+             if (DropDownList1.SelectedValue == "Speciality") 
+            {
+                Response.Redirect("SpecSelection.html")
+            }
+            
+        
     }
 }

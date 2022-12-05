@@ -43,7 +43,11 @@ namespace TestCapstone.Pages
             TextBox5.Text = "";
             TextBox6.Text = "";
 
-
+        }
+        
+        protect void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Confirmation.aspx");
         }
         
     }

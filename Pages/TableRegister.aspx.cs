@@ -20,9 +20,13 @@ namespace TestCapstone.Pages
         protected void Page_Load(object sender, EventArgs e)
         {
             con.Open();
-            Random variable = new Random();
-            int Confirmation = variable.Next(10000, 99999);
-            Label2.Text = Confirmation.ToString();
+              if (!IsPostBack)
+            {
+               
+                Random variable = new Random();
+                int Confirmation = variable.Next(10000, 99999);
+                Label2.Text = Confirmation.ToString();
+
 
         }
 
